@@ -1,5 +1,5 @@
 const Decorator = function(paint_stock){
-    this.paint_stock = 0;
+    this.paint_stock = paint_stock;
 }
 
 Decorator.prototype.addPaintCan = function(paint_cans) {
@@ -8,12 +8,7 @@ Decorator.prototype.addPaintCan = function(paint_cans) {
 Decorator.prototype.calculateTotalPaint = function() {
     return this.paint_stock * PaintCan.litres;
 }
-// Decorator.prototype.addPaintCan = function(paint_cans) {
-//     this.paint_stock += paint_cans;
-// }
-// Decorator.prototype.addPaintCan = function(paint_cans) {
-//     this.paint_stock += paint_cans;
-// }
+
 
 module.exports = Decorator;
 
