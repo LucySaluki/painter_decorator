@@ -1,0 +1,22 @@
+{
+  "name": "painter_decorator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "decorator.js",
+  "scripts": {
+    "test": "mocha models/specs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucySaluki/painter_decorator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucySaluki/painter_decorator/issues"
+  },
+  "homepage": "https://github.com/LucySaluki/painter_decorator#readme",
+  "devDependencies": {
+    "mocha": "^8.1.1"
+  }
+}
